@@ -1,4 +1,4 @@
-package br.com.danichs;
+package br.com.danichs.dominio.aluno;
 
 import java.util.ArrayList;
 import java.util.List;
