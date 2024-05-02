@@ -13,6 +13,8 @@ public class Aluno {
 
     private List<Telefone> telefones = new ArrayList<>();
 
+    private String senha;
+
     public Aluno(CPF cpf, String nome, Email email){
         this.cpf = cpf;
         this.nome = nome;
@@ -23,4 +25,19 @@ public class Aluno {
         this.telefones.add(new Telefone(ddd, numero));
     }
 
+    public String getCpf(){
+        return cpf.getNumero();
+    }
+
+    public String getNome() {
+        return nome;
+    }
+
+    public String getEmail() {
+        return email.getEndereco();
+    }
+
+    public List<Telefone> getTelefones() {
+        return telefones;
+    }
 }
