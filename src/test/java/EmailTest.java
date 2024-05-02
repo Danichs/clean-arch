@@ -3,7 +3,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 import org.junit.jupiter.api.Test;
 
-import br.com.danichs.Email;
+import br.com.danichs.dominio.aluno.Email;
 
 public class EmailTest {
 
